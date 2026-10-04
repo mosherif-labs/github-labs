@@ -31,22 +31,22 @@ Mission 5 issue: *Add input validation to POST /transactions/screen*. The agent 
 
 | Artifact | Link | Where does it live? |
 |---|---|---|
-| Issue | [#4](https://github.com/mo-ai-labs/txn-screening-svc/issues/4) *(check the number)* | GitHub **Issues**: the task definition, linked to the PR |
-| Branch | `copilot/add-input-validation-to-post-transactions-screen-again` (deleted on merge; see the [PR](https://github.com/mo-ai-labs/txn-screening-svc/pull/6)) | **Git refs**: the agent's single `copilot/*` branch for the task |
-| Commits | [489a683 Initial plan](https://github.com/mo-ai-labs/txn-screening-svc/commit/489a683) · [8354245 Validate transaction screening inputs](https://github.com/mo-ai-labs/txn-screening-svc/commit/8354245) · [af85d35 Keep screening fixture country valid](https://github.com/mo-ai-labs/txn-screening-svc/commit/af85d35) | **Git history** on that branch. Author `copilot-swe-agent[bot]`, co-authored by me (the assigner) |
-| Pull request | [#6](https://github.com/mo-ai-labs/txn-screening-svc/pull/6), merged as [a455262](https://github.com/mo-ai-labs/txn-screening-svc/commit/a455262) | GitHub **Pull requests**: the one PR per task, where human review happens |
-| Session log | [Agent task / session](https://github.com/mo-ai-labs/txn-screening-svc/tasks/268af309-5ea9-4f9d-8215-3f573269dc0f?session_id=0fb01dd0-e692-4192-91f6-54a787e28661) | **Agents tab / session view**: reasoning, tool calls, test runs. Not in git |
-| Actions run (agent) | [Running Copilot cloud agent](https://github.com/mo-ai-labs/txn-screening-svc/actions/runs/36617632233) (15:12) | **Actions**: the agent's ephemeral environment runs as an Actions workflow |
-| Actions run (CI `test`) | [❌ failed on 8354245](https://github.com/mo-ai-labs/txn-screening-svc/actions/runs/36617836323) (15:14:37), then [✅ passed on af85d35](https://github.com/mo-ai-labs/txn-screening-svc/actions/runs/36617878006) (15:14:58) | **Actions / PR Checks**: my `ci.yml` validating the agent's change |
-| Other runs on PR #6 | [Code scanning AI findings](https://github.com/mo-ai-labs/txn-screening-svc/actions/runs/36617883171) · [Copilot Code Review](https://github.com/mo-ai-labs/txn-screening-svc/actions/runs/36618611387) · [CI on main after merge](https://github.com/mo-ai-labs/txn-screening-svc/actions/runs/36618887798) | **Actions**: GitHub's own security and review agents, also running on Actions |
+| Issue | [#4](https://github.com/mosherif-labs/github-labs/issues/4) *(check the number)* | GitHub **Issues**: the task definition, linked to the PR |
+| Branch | `copilot/add-input-validation-to-post-transactions-screen-again` (deleted on merge; see the [PR](https://github.com/mosherif-labs/github-labs/pull/6)) | **Git refs**: the agent's single `copilot/*` branch for the task |
+| Commits | [489a683 Initial plan](https://github.com/mosherif-labs/github-labs/commit/489a683) · [8354245 Validate transaction screening inputs](https://github.com/mosherif-labs/github-labs/commit/8354245) · [af85d35 Keep screening fixture country valid](https://github.com/mosherif-labs/github-labs/commit/af85d35) | **Git history** on that branch. Author `copilot-swe-agent[bot]`, co-authored by me (the assigner) |
+| Pull request | [#6](https://github.com/mosherif-labs/github-labs/pull/6), merged as [a455262](https://github.com/mosherif-labs/github-labs/commit/a455262) | GitHub **Pull requests**: the one PR per task, where human review happens |
+| Session log | [Agent task / session](https://github.com/mosherif-labs/github-labs/tasks/268af309-5ea9-4f9d-8215-3f573269dc0f?session_id=0fb01dd0-e692-4192-91f6-54a787e28661) | **Agents tab / session view**: reasoning, tool calls, test runs. Not in git |
+| Actions run (agent) | [Running Copilot cloud agent](https://github.com/mosherif-labs/github-labs/actions/runs/36617632233) (15:12) | **Actions**: the agent's ephemeral environment runs as an Actions workflow |
+| Actions run (CI `test`) | [❌ failed on 8354245](https://github.com/mosherif-labs/github-labs/actions/runs/36617836323) (15:14:37), then [✅ passed on af85d35](https://github.com/mosherif-labs/github-labs/actions/runs/36617878006) (15:14:58) | **Actions / PR Checks**: my `ci.yml` validating the agent's change |
+| Other runs on PR #6 | [Code scanning AI findings](https://github.com/mosherif-labs/github-labs/actions/runs/36617883171) · [Copilot Code Review](https://github.com/mosherif-labs/github-labs/actions/runs/36618611387) · [CI on main after merge](https://github.com/mosherif-labs/github-labs/actions/runs/36618887798) | **Actions**: GitHub's own security and review agents, also running on Actions |
 
 ### Timeline (EDT, from git)
 
 | Time | Event |
 |---|---|
-| 15:04 | I commit the instruction files on `rules/d01` ([fed1da7](https://github.com/mo-ai-labs/txn-screening-svc/commit/fed1da7)) |
-| 15:07 | **First agent run starts**: [PR #5](https://github.com/mo-ai-labs/txn-screening-svc/pull/5), branch `copilot/add-input-validation-to-post-transactions-screen` |
-| 15:12 | [PR #3](https://github.com/mo-ai-labs/txn-screening-svc/pull/3) merged, so the instruction files reach `main` |
+| 15:04 | I commit the instruction files on `rules/d01` ([fed1da7](https://github.com/mosherif-labs/github-labs/commit/fed1da7)) |
+| 15:07 | **First agent run starts**: [PR #5](https://github.com/mosherif-labs/github-labs/pull/5), branch `copilot/add-input-validation-to-post-transactions-screen` |
+| 15:12 | [PR #3](https://github.com/mosherif-labs/github-labs/pull/3) merged, so the instruction files reach `main` |
 | 15:12 | **Second agent run starts**: PR #6, branch `…-again` |
 | 15:14 | Agent pushes `8354245` (validation). **CI fails**: the old `"zz"` country in `test_screening.py` is now invalid |
 | 15:14 | Agent pushes `af85d35` (fixture `"ZZ"`). **CI passes** |

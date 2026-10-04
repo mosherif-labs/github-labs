@@ -85,7 +85,7 @@ Sources: [GitHub Docs — Commenting on an issue when a label is added](https://
 ![plan-gate comment on #18](img/d04-gate-comment.png)
 
 - **Why it can't block:** the `issues: assigned` event fires *after* the assignment has happened, and the workflow has no hook into Copilot's session start. A comment is a **signal**; the real locks are the ones on the *merge* side (required review, required checks, CODEOWNERS) and on *who can assign* Copilot
-- Plan PR reviewed against the checklist → merged **#19** → `plan-approved` added → implementer assigned → implementation PR **#21** ([agent session](https://github.com/mo-ai-labs/txn-screening-svc/tasks/1c137061-9347-4fe9-9898-e7f6e4c595a))
+- Plan PR reviewed against the checklist → merged **#19** → `plan-approved` added → implementer assigned → implementation PR **#21** ([agent session](https://github.com/mosherif-labs/github-labs/tasks/1c137061-9347-4fe9-9898-e7f6e4c595a))
 - #21 finished as a **draft** with no checks: workflows don't run on Copilot's pushes until someone clicks **Approve and run workflows** ([GitHub Docs](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/review-copilot-prs)); my approval of a Copilot PR wouldn't count toward required approvals → approved workflows, CI green, marked ready, **merged** ✅
 - Did the implementation diff match the plan's *Files to change*? **Yes**: `app/routers/alerts.py` (+3) and `tests/test_alerts.py` (+35), with exactly the three test names from the plan
 

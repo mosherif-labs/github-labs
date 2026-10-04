@@ -62,7 +62,7 @@ Source: [GitHub Docs — Using custom agents](https://docs.github.com/en/copilot
 - **Session log tools:** read/view only. It never *tried* `edit` or a shell
 - **Edit / commit / branch / PR:** none
 - **What it said:** no refusal. It went straight to the plan, even though its instructions say to reply "I only plan" first → the prompt body was only partly obeyed (**guidance**)
-- **Drift spotted:** "Files to change" used absolute runner paths (`/home/runner/work/txn-screening-svc/txn-screening-svc/app/models.py`) instead of repo-relative ones → tighten the profile before M7
+- **Drift spotted:** "Files to change" used absolute runner paths (`/home/runner/work/github-labs/github-labs/app/models.py`) instead of repo-relative ones → tighten the profile before M7
 
 ![Planner returns a plan instead of editing](img/d03-planner-no-edit.png)
 
