@@ -13,6 +13,10 @@ uv run uvicorn app.main:app --reload
 
 Then open http://127.0.0.1:8000/docs.
 
+## FastAPI version
+
+`pyproject.toml` requires `fastapi>=0.115`, making 0.115.0 the minimum release. FastAPI 0.115.0 added Pydantic models for `Query`, `Header`, and `Cookie` parameters (see the [official release notes](https://fastapi.tiangolo.com/release-notes/) and the [0.115.0 release entry](https://github.com/fastapi/fastapi/releases/tag/0.115.0)).
+
 ## Test it
 
 ```powershell
