@@ -32,6 +32,21 @@ def make_txn(**overrides) -> dict:
 
 
 @pytest.fixture
+def screening_hit() -> dict:
+    return make_txn(originator_name="Ivan Placeholderov")
+
+
+@pytest.fixture
+def screening_partial() -> dict:
+    return make_txn(originator_name="Ivan Placehold")
+
+
+@pytest.fixture
+def screening_clean() -> dict:
+    return make_txn(originator_name="Cedar Example")
+
+
+@pytest.fixture
 def alert_id(client: TestClient) -> str:
     """An open alert raised by a watchlist hit in a high-risk country."""
     response = client.post(
