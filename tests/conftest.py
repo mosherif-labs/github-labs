@@ -32,12 +32,19 @@ def make_txn(**overrides) -> dict:
 
 
 @pytest.fixture
-def screening_hit() -> dict:
-    return make_txn(originator_name="Ivan Placeholderov")
+def screening_list_entry(client: TestClient) -> str:
+    name = "Ivan Placeholderov"
+    assert client.post("/watchlist", json={"name": name}).status_code == 201
+    return name
 
 
 @pytest.fixture
-def screening_partial() -> dict:
+def screening_hit(screening_list_entry: str) -> dict:
+    return make_txn(originator_name=screening_list_entry)
+
+
+@pytest.fixture
+def screening_partial(screening_list_entry: str) -> dict:
     return make_txn(originator_name="Ivan Placehold")
 
 
