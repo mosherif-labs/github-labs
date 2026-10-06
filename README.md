@@ -19,6 +19,8 @@ Then open http://127.0.0.1:8000/docs.
 uv run pytest
 ```
 
+Latest test run: **66 tests passed**.
+
 CI (`.github/workflows/ci.yml`, job `test`) runs the same suite on every pull request and on pushes to `main`.
 
 ## Endpoints
