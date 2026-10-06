@@ -1,0 +1,418 @@
+{
+ "type": "excalidraw",
+ "version": 2,
+ "source": "claude",
+ "elements": [
+  {
+   "type": "text",
+   "id": "ti",
+   "x": 170,
+   "y": 14,
+   "width": 460,
+   "height": 30,
+   "text": "What the cloud agent can plug into",
+   "originalText": "What the cloud agent can plug into",
+   "fontSize": 24,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "ag",
+   "x": 300,
+   "y": 230,
+   "width": 200,
+   "height": 90,
+   "backgroundColor": "#fff3bf",
+   "strokeColor": "#f59e0b",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "agt"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "agt",
+   "x": 310,
+   "y": 255.0,
+   "width": 180,
+   "height": 40,
+   "text": "Copilot\ncloud agent",
+   "originalText": "Copilot\ncloud agent",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "ag",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "gh",
+   "x": 20,
+   "y": 90,
+   "width": 230,
+   "height": 80,
+   "backgroundColor": "#a5d8ff",
+   "strokeColor": "#4a9eed",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "ght"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "ght",
+   "x": 30,
+   "y": 110.0,
+   "width": 210,
+   "height": 40,
+   "text": "GitHub MCP (default)\nread-only, this repo",
+   "originalText": "GitHub MCP (default)\nread-only, this repo",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "gh",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "arrow",
+   "id": "a1",
+   "x": 250,
+   "y": 150,
+   "width": 50,
+   "height": 95,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     50,
+     95
+    ]
+   ],
+   "endArrowhead": "arrow",
+   "startArrowhead": null,
+   "strokeColor": "#1e1e1e",
+   "strokeWidth": 2,
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "pw",
+   "x": 20,
+   "y": 220,
+   "width": 230,
+   "height": 80,
+   "backgroundColor": "#a5d8ff",
+   "strokeColor": "#4a9eed",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "pwt"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "pwt",
+   "x": 30,
+   "y": 240.0,
+   "width": 210,
+   "height": 40,
+   "text": "Playwright MCP (default)\nlocalhost pages only",
+   "originalText": "Playwright MCP (default)\nlocalhost pages only",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "pw",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "arrow",
+   "id": "a2",
+   "x": 250,
+   "y": 260,
+   "width": 50,
+   "height": 10,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     50,
+     10
+    ]
+   ],
+   "endArrowhead": "arrow",
+   "startArrowhead": null,
+   "strokeColor": "#1e1e1e",
+   "strokeWidth": 2,
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "sa",
+   "x": 20,
+   "y": 350,
+   "width": 230,
+   "height": 80,
+   "backgroundColor": "#b2f2bb",
+   "strokeColor": "#22c55e",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "sat"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "sat",
+   "x": 30,
+   "y": 370.0,
+   "width": 210,
+   "height": 40,
+   "text": "sanctions (yours)\nrepo JSON + tools list",
+   "originalText": "sanctions (yours)\nrepo JSON + tools list",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "sa",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "arrow",
+   "id": "a3",
+   "x": 250,
+   "y": 390,
+   "width": 50,
+   "height": 70,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     50,
+     -70
+    ]
+   ],
+   "endArrowhead": "arrow",
+   "startArrowhead": null,
+   "strokeColor": "#1e1e1e",
+   "strokeWidth": 2,
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "pr",
+   "x": 550,
+   "y": 90,
+   "width": 230,
+   "height": 80,
+   "backgroundColor": "#d0bfff",
+   "strokeColor": "#8b5cf6",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "prt"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "prt",
+   "x": 560,
+   "y": 110.0,
+   "width": 210,
+   "height": 40,
+   "text": "Agent profile mcp-servers\nonly that one agent",
+   "originalText": "Agent profile mcp-servers\nonly that one agent",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "pr",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "arrow",
+   "id": "a4",
+   "x": 600,
+   "y": 170,
+   "width": 100,
+   "height": 75,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -100,
+     75
+    ]
+   ],
+   "endArrowhead": "arrow",
+   "startArrowhead": null,
+   "strokeColor": "#1e1e1e",
+   "strokeWidth": 2,
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "n1",
+   "x": 300,
+   "y": 380,
+   "width": 220,
+   "height": 90,
+   "backgroundColor": "#ffc9c9",
+   "strokeColor": "#ef4444",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "n1t"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "n1t",
+   "x": 310,
+   "y": 405.0,
+   "width": 200,
+   "height": 40,
+   "text": "No approval prompt:\ntools run autonomously",
+   "originalText": "No approval prompt:\ntools run autonomously",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "n1",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "n2",
+   "x": 550,
+   "y": 380,
+   "width": 230,
+   "height": 90,
+   "backgroundColor": "#ffd8a8",
+   "strokeColor": "#f59e0b",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "n2t"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "n2t",
+   "x": 560,
+   "y": 405.0,
+   "width": 210,
+   "height": 40,
+   "text": "MCP tools only. No\nresources, prompts, OAuth",
+   "originalText": "MCP tools only. No\nresources, prompts, OAuth",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "n2",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  }
+ ],
+ "appState": {
+  "viewBackgroundColor": "#ffffff"
+ },
+ "files": {}
+}
