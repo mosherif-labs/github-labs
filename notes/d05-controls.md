@@ -15,14 +15,14 @@
 
 Source: [Learn — Autonomy must be designed, not assumed](https://learn.microsoft.com/en-us/training/modules/design-agent-architecture-integration/6-reliable-workflows#autonomy-must-be-designed-not-assumed)
 
-| Rung | `txn-screening-svc` change | Learn risk tier → why |
+| Rung | `github-labs` change | Learn risk tier → why |
 |---|---|---|
 | 1. Suggest only | Screening `RULES` / score thresholds in `app/screening.py`; anything in `infra/` or `.github/workflows/` | **High / Critical**: CODEOWNERS + multiple reviews + stricter rulesets; for deploys and secrets, *agent prepares but can't execute* (environment approvals). Here: read-only planner → plan-first PR → a human writes the change |
 | 2. Draft PR | Bulk or data-deleting changes in `app/store.py` | **Medium → High**: `src/`, but checklist §4 says *Escalate*. Copilot's draft PR is where it stops: plan-first, a second reviewer, workflows approved by hand |
 | 3. PR with checks (+ review) | New endpoint in `app/routers/` + tests (e.g. `GET /alerts/{id}/notes`) | **Medium** (`src/`): PR required + required checks (`test`) + ≥1 review |
 | 4. Auto-merge on low risk | `README.md`, `notes/`, typo/formatting fixes | **Low** (`docs/`, formatting): automerge once required checks pass |
 
-![Autonomy ladder for txn-screening-svc](img/d05-autonomy-ladder.svg)
+![Autonomy ladder for github-labs](img/d05-autonomy-ladder.svg)
 
 *Source: [`img/d05-autonomy-ladder.excalidraw`](img/d05-autonomy-ladder.excalidraw), open it in excalidraw.com to edit*
 

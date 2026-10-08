@@ -16,7 +16,7 @@ Source: [Study guide GH-600 — Skills measured](https://learn.microsoft.com/en-
 
 **1.1 Identify steps for agents to perform**
 
-- **Q1.** Your team wants to hand `txn-screening-svc` work to Copilot cloud agent. Which task is the **best fit** for the agent?
+- **Q1.** Your team wants to hand `github-labs` work to Copilot cloud agent. Which task is the **best fit** for the agent?
   - A. Raise the alert threshold in `app/screening.py` from 50 to 60
   - B. Rename the `alert_id` field across this repo and two consumer repos
   - C. Add tests for each `/alerts/{id}/close` disposition

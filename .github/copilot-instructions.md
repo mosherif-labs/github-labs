@@ -1,4 +1,4 @@
-# Copilot instructions: txn-screening-svc
+# Copilot instructions: github-labs
 
 A toy transaction-screening service: FastAPI, in-memory storage (`app/store.py`), Python 3.12+, managed with `uv`.
 
