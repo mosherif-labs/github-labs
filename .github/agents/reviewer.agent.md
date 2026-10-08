@@ -1,6 +1,6 @@
 ---
 name: reviewer
-description: Reviews changes to txn-screening-svc for correctness, screening-rule regressions and missing tests. Read-only; never edits files.
+description: Reviews changes to github-labs for correctness, screening-rule regressions and missing tests. Read-only; never edits files.
 tools: ["read", "search"]
 ---
 

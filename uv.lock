@@ -864,7 +864,7 @@ wheels = [
 ]
 
 [[package]]
-name = "txn-screening-svc"
+name = "github-labs"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

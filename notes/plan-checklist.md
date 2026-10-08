@@ -1,4 +1,4 @@
-# Plan checklist — txn-screening-svc
+# Plan checklist — github-labs
 
 Apply to every `plans/<issue>.md` before approving its PR. Target: **3½ minutes per plan**.
 Any **Reject** line fails the plan; any **Escalate** line needs a second reviewer before `plan-approved`.

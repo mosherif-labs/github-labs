@@ -1,6 +1,6 @@
 ---
 name: tester
-description: Writes and runs unit tests for txn-screening-svc and reports coverage gaps.
+description: Writes and runs unit tests for github-labs and reports coverage gaps.
 tools: ["read", "edit", "execute", "sanctions/lookup_sanctions"]
 mcp-servers:
   sanctions:

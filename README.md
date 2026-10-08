@@ -1,4 +1,4 @@
-# txn-screening-svc
+# github-labs
 
 A toy transaction-screening service (FastAPI, in-memory storage). It's the proving ground for the GH-600 study plan: an AI agent will push code here, so the service stays small on purpose.
 

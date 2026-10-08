@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from app.routers import alerts, transactions, watchlist
 
 app = FastAPI(
-    title="txn-screening-svc",
+    title="github-labs",
     version="0.1.0",
     description="Toy transaction-screening service. **Synthetic data only.**",
 )

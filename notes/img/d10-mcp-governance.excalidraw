@@ -1,0 +1,661 @@
+{
+ "type": "excalidraw",
+ "version": 2,
+ "source": "https://excalidraw.com",
+ "elements": [
+  {
+   "type": "text",
+   "id": "ti",
+   "x": 20,
+   "y": 10,
+   "width": 900,
+   "height": 32.5,
+   "text": "Day 10 \u00b7 Who can stop which MCP server, where",
+   "originalText": "Day 10 \u00b7 Who can stop which MCP server, where",
+   "fontSize": 26,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "l1",
+   "x": 20,
+   "y": 60,
+   "width": 900,
+   "height": 21.25,
+   "text": "LANE 1 \u00b7 IDEs + Copilot CLI  (org / enterprise policies apply)",
+   "originalText": "LANE 1 \u00b7 IDEs + Copilot CLI  (org / enterprise policies apply)",
+   "fontSize": 17,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#1971c2",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "ent",
+   "x": 20,
+   "y": 95,
+   "width": 250,
+   "height": 150,
+   "backgroundColor": "#d0ebff",
+   "strokeColor": "#1971c2",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "strokeStyle": "solid",
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "entt"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "entt",
+   "x": 28,
+   "y": 117.5,
+   "width": 234,
+   "height": 105.0,
+   "text": "ENTERPRISE  (enterprise owners)\nAI controls \u2192 MCP\n\u2460\u2461\u2462 knobs\n+ managed-settings.json\nallow / deny, deny wins\n(.github-private or MDM)",
+   "originalText": "ENTERPRISE  (enterprise owners)\nAI controls \u2192 MCP\n\u2460\u2461\u2462 knobs\n+ managed-settings.json\nallow / deny, deny wins\n(.github-private or MDM)",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "ent",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "org",
+   "x": 320,
+   "y": 95,
+   "width": 250,
+   "height": 150,
+   "backgroundColor": "#e7f5ff",
+   "strokeColor": "#1971c2",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "strokeStyle": "solid",
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "orgt"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "orgt",
+   "x": 328,
+   "y": 117.5,
+   "width": 234,
+   "height": 105.0,
+   "text": "ORG  (org owners)\nSettings \u2192 Copilot \u2192 Policies\n\u2460 MCP servers in Copilot\n\u2461 MCP Registry URL\n\u2462 Restrict: Allow all /\n    Registry only",
+   "originalText": "ORG  (org owners)\nSettings \u2192 Copilot \u2192 Policies\n\u2460 MCP servers in Copilot\n\u2461 MCP Registry URL\n\u2462 Restrict: Allow all /\n    Registry only",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "org",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "cli",
+   "x": 620,
+   "y": 95,
+   "width": 250,
+   "height": 150,
+   "backgroundColor": "#f3f0ff",
+   "strokeColor": "#7048e8",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "strokeStyle": "solid",
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "clit"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "clit",
+   "x": 628,
+   "y": 126.25,
+   "width": 234,
+   "height": 87.5,
+   "text": "DEVELOPER CLIENT\nVS Code \u2265 1.109.3\nCopilot CLI \u2265 1.0.11\nVisual Studio \u2265 18.4.0\nJetBrains \u00b7 Eclipse \u00b7 Xcode",
+   "originalText": "DEVELOPER CLIENT\nVS Code \u2265 1.109.3\nCopilot CLI \u2265 1.0.11\nVisual Studio \u2265 18.4.0\nJetBrains \u00b7 Eclipse \u00b7 Xcode",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "cli",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "srv1",
+   "x": 920,
+   "y": 120,
+   "width": 180,
+   "height": 100,
+   "backgroundColor": "#ebfbee",
+   "strokeColor": "#2f9e44",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "strokeStyle": "solid",
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "srv1t"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "srv1t",
+   "x": 928,
+   "y": 151.25,
+   "width": 164,
+   "height": 37.5,
+   "text": "MCP server\n(local or remote)",
+   "originalText": "MCP server\n(local or remote)",
+   "fontSize": 15,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "srv1",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "arrow",
+   "id": "a1",
+   "x": 270,
+   "y": 170,
+   "width": 50,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     50,
+     0
+    ]
+   ],
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "strokeStyle": "solid",
+   "endArrowhead": "arrow",
+   "startArrowhead": null,
+   "isDeleted": false
+  },
+  {
+   "type": "arrow",
+   "id": "a2",
+   "x": 570,
+   "y": 170,
+   "width": 50,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     50,
+     0
+    ]
+   ],
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "strokeStyle": "solid",
+   "endArrowhead": "arrow",
+   "startArrowhead": null,
+   "isDeleted": false
+  },
+  {
+   "type": "arrow",
+   "id": "a3",
+   "x": 870,
+   "y": 170,
+   "width": 50,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     50,
+     0
+    ]
+   ],
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "strokeStyle": "solid",
+   "endArrowhead": "arrow",
+   "startArrowhead": null,
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "n1",
+   "x": 20,
+   "y": 255,
+   "width": 600,
+   "height": 17.5,
+   "text": "Enterprise beats org  \u00b7  then Registry only beats Allow all  \u00b7  then newest registry",
+   "originalText": "Enterprise beats org  \u00b7  then Registry only beats Allow all  \u00b7  then newest registry",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#495057",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "n2",
+   "x": 620,
+   "y": 255,
+   "width": 420,
+   "height": 35.0,
+   "text": "Registry check = name/ID match only\n(rename in config file \u2192 bypass)",
+   "originalText": "Registry check = name/ID match only\n(rename in config file \u2192 bypass)",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#e03131",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "line",
+   "id": "div",
+   "x": 20,
+   "y": 320,
+   "width": 1080,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     1080,
+     0
+    ]
+   ],
+   "strokeColor": "#e03131",
+   "backgroundColor": "transparent",
+   "strokeWidth": 3,
+   "roughness": 1,
+   "opacity": 100,
+   "strokeStyle": "dashed",
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "dv",
+   "x": 300,
+   "y": 328,
+   "width": 700,
+   "height": 20.0,
+   "text": "org / enterprise MCP policies stop here: they do NOT reach the cloud agent",
+   "originalText": "org / enterprise MCP policies stop here: they do NOT reach the cloud agent",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#e03131",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "l2",
+   "x": 20,
+   "y": 370,
+   "width": 900,
+   "height": 21.25,
+   "text": "LANE 2 \u00b7 Copilot cloud agent  (repo-level gates only)",
+   "originalText": "LANE 2 \u00b7 Copilot cloud agent  (repo-level gates only)",
+   "fontSize": 17,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#e8590c",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "adm",
+   "x": 20,
+   "y": 405,
+   "width": 250,
+   "height": 110,
+   "backgroundColor": "#fff4e6",
+   "strokeColor": "#e8590c",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "strokeStyle": "solid",
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "admt"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "admt",
+   "x": 28,
+   "y": 425.0,
+   "width": 234,
+   "height": 70.0,
+   "text": "REPO ADMINS\nRepo Settings \u2192 Copilot \u2192\nMCP servers (JSON)\nprocessed LAST = wins",
+   "originalText": "REPO ADMINS\nRepo Settings \u2192 Copilot \u2192\nMCP servers (JSON)\nprocessed LAST = wins",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "adm",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "pr",
+   "x": 20,
+   "y": 535,
+   "width": 250,
+   "height": 110,
+   "backgroundColor": "#fff4e6",
+   "strokeColor": "#e8590c",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "strokeStyle": "solid",
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "prt"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "prt",
+   "x": 28,
+   "y": 555.0,
+   "width": 234,
+   "height": 70.0,
+   "text": "PR MERGED to default branch\n.github/agents/*.agent.md\nmcp-servers: (this agent only)\nguard: CODEOWNERS + ruleset",
+   "originalText": "PR MERGED to default branch\n.github/agents/*.agent.md\nmcp-servers: (this agent only)\nguard: CODEOWNERS + ruleset",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "pr",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "ca",
+   "x": 370,
+   "y": 460,
+   "width": 250,
+   "height": 130,
+   "backgroundColor": "#fff3bf",
+   "strokeColor": "#f59e0b",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "strokeStyle": "solid",
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "cat"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "cat",
+   "x": 378,
+   "y": 490.0,
+   "width": 234,
+   "height": 70.0,
+   "text": "COPILOT CLOUD AGENT\n(+ code review for repo JSON)\nno approval prompt:\ntools run autonomously",
+   "originalText": "COPILOT CLOUD AGENT\n(+ code review for repo JSON)\nno approval prompt:\ntools run autonomously",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "ca",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "rectangle",
+   "id": "srv2",
+   "x": 720,
+   "y": 475,
+   "width": 180,
+   "height": 100,
+   "backgroundColor": "#ebfbee",
+   "strokeColor": "#2f9e44",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "roundness": {
+    "type": 3
+   },
+   "strokeStyle": "solid",
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "srv2t"
+    }
+   ],
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "srv2t",
+   "x": 728,
+   "y": 498.75,
+   "width": 164,
+   "height": 52.5,
+   "text": "MCP server\n(secret = Agents secret\nCOPILOT_MCP_*)",
+   "originalText": "MCP server\n(secret = Agents secret\nCOPILOT_MCP_*)",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "srv2",
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  },
+  {
+   "type": "arrow",
+   "id": "b1",
+   "x": 270,
+   "y": 460,
+   "width": 100,
+   "height": 45,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     100,
+     45
+    ]
+   ],
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "strokeStyle": "solid",
+   "endArrowhead": "arrow",
+   "startArrowhead": null,
+   "isDeleted": false
+  },
+  {
+   "type": "arrow",
+   "id": "b2",
+   "x": 270,
+   "y": 590,
+   "width": 100,
+   "height": 40,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     100,
+     -40
+    ]
+   ],
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "strokeStyle": "solid",
+   "endArrowhead": "arrow",
+   "startArrowhead": null,
+   "isDeleted": false
+  },
+  {
+   "type": "arrow",
+   "id": "b3",
+   "x": 620,
+   "y": 525,
+   "width": 100,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     100,
+     0
+    ]
+   ],
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "strokeWidth": 2,
+   "roughness": 1,
+   "opacity": 100,
+   "strokeStyle": "solid",
+   "endArrowhead": "arrow",
+   "startArrowhead": null,
+   "isDeleted": false
+  },
+  {
+   "type": "text",
+   "id": "n3",
+   "x": 370,
+   "y": 605,
+   "width": 520,
+   "height": 35.0,
+   "text": "A one-repo admin can add an unapproved server here,\nand no org/enterprise policy blocks it.",
+   "originalText": "A one-repo admin can add an unapproved server here,\nand no org/enterprise policy blocks it.",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#e03131",
+   "backgroundColor": "transparent",
+   "isDeleted": false
+  }
+ ],
+ "appState": {
+  "viewBackgroundColor": "#ffffff"
+ },
+ "files": {}
+}

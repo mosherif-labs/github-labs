@@ -1,5 +1,5 @@
 [project]
-name = "txn-screening-svc"
+name = "github-labs"
 version = "0.1.0"
 description = "Toy transaction-screening service (synthetic data only) used as a proving ground for GH-600."
 readme = "README.md"
