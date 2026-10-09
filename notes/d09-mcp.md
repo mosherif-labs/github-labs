@@ -57,19 +57,19 @@ Config: [`.vscode/mcp.json`](../.vscode/mcp.json) (`servers` key; `http` type; `
 
 ## Lessons (Mission 5 — Build `lookup_sanctions`)
 
-Files: [`tools/sanctions_mcp.py`](../tools/sanctions_mcp.py) · [`tools/data/sanctions_synthetic.json`](../tools/data/sanctions_synthetic.json) (synthetic only)
+Files: [`app/tools/sanctions_mcp.py`](../app/tools/sanctions_mcp.py) · [`app/tools/data/sanctions_synthetic.json`](../app/tools/data/sanctions_synthetic.json) (synthetic only)
 
 - `mcp[cli]` 2.3.0 installed with `uv add` (it is now in `pyproject.toml`); 2.x uses `from mcp.server import MCPServer`, 1.x used `FastMCP`. `@mcp.tool()` returns the plain function, and the docstring becomes the tool description
 - `mcp dev` needs Node: npm failed with EPERM on the shared cache `C:\ProgramData\npm\npm-cache`; fix = point `npm_config_cache` at a folder I own (this PowerShell window only)
 - First call returned `{"error": "SANCTIONS_API_KEY not set"}`: a **stdio server only sees the default environment plus the `env` you pass explicitly** (SDK: `get_default_environment() | server.env`), so my shell variable never reached it. Same reason the cloud agent's MCP JSON needs an `env` block mapping to `$COPILOT_MCP_...`
-- Inspector 2.9.0 has no Environment Variables sidebar; set it at launch: `npx @modelcontextprotocol/inspector -e SANCTIONS_API_KEY=synthetic-key uv run mcp run tools/sanctions_mcp.py` (or an `env` key in a `--config` catalog file)
+- Inspector 2.9.0 has no Environment Variables sidebar; set it at launch: `npx @modelcontextprotocol/inspector -e SANCTIONS_API_KEY=synthetic-key uv run mcp run app/tools/sanctions_mcp.py` (or an `env` key in a `--config` catalog file)
 - Result: `lookup_sanctions("placeholder")` returns one hit (Ivan Placeholderov, `SYN-SDN`), `match: true`
 
 ## Lessons (Mission 6 — Wire it into the cloud agent)
 
 Files: [`copilot-setup-steps.yml`](../.github/workflows/copilot-setup-steps.yml) · [`tester.agent.md`](../.github/agents/tester.agent.md) · PR [#53](https://github.com/mosherif-labs/github-labs/pull/53)
 
-- Repo **Settings → Copilot → MCP servers**: `mcpServers.sanctions` (`type: local`, `command: uv`, `args: [run, mcp, run, tools/sanctions_mcp.py]`, `tools: [lookup_sanctions]`, `env.SANCTIONS_API_KEY: $COPILOT_MCP_SANCTIONS_API_KEY`). Secret = repo **Agents** secret `COPILOT_MCP_SANCTIONS_API_KEY`, never in the JSON
+- Repo **Settings → Copilot → MCP servers**: `mcpServers.sanctions` (`type: local`, `command: uv`, `args: [run, mcp, run, app/tools/sanctions_mcp.py]`, `tools: [lookup_sanctions]`, `env.SANCTIONS_API_KEY: $COPILOT_MCP_SANCTIONS_API_KEY`). Secret = repo **Agents** secret `COPILOT_MCP_SANCTIONS_API_KEY`, never in the JSON
 - Adapted the guide's setup steps to this repo: it has no `requirements.txt`, it uses `uv`, so `setup-uv` + `uv sync --locked` (same as CI) installs the app, pytest **and** `mcp[cli]` (added to `pyproject.toml` / `uv.lock`)
 - `copilot-setup-steps.yml` must be on the default branch, and its job must be named `copilot-setup-steps`; the run on `main` was green
 - Profile `tester`: `mcp-servers:` in the frontmatter (profile-only, secret via `${{ secrets.COPILOT_MCP_... }}`) and `sanctions/lookup_sanctions` in `tools:` (`server/tool` naming; `server/*` = all tools of a server). The `tools:` list filters MCP tools too

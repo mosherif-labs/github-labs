@@ -6,7 +6,7 @@ mcp-servers:
   sanctions:
     type: 'local'
     command: 'uv'
-    args: ['run', 'mcp', 'run', 'tools/sanctions_mcp.py']
+    args: ['run', 'mcp', 'run', 'app/tools/sanctions_mcp.py']
     tools: ["lookup_sanctions"]
     env:
       SANCTIONS_API_KEY: ${{ secrets.COPILOT_MCP_SANCTIONS_API_KEY }}
