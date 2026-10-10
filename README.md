@@ -2,6 +2,8 @@
 
 A toy transaction-screening service (FastAPI, in-memory storage). It's the proving ground for the GH-600 study plan: an AI agent will push code here, so the service stays small on purpose.
 
+Day 11 repo-scope probe
+
 > **Synthetic data only.** Every name, country code, amount and rule in this repo is invented. Nothing comes from a real bank, customer or rulebook.
 
 ## Run it
