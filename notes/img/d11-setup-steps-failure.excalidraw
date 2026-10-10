@@ -1,0 +1,302 @@
+{
+ "type": "excalidraw",
+ "version": 2,
+ "source": "claude",
+ "elements": [
+  {
+   "id": "e1",
+   "type": "text",
+   "x": 20,
+   "y": 0,
+   "width": 900,
+   "height": 28.6,
+   "text": "copilot-setup-steps: what happens when a step fails",
+   "fontSize": 22,
+   "fontFamily": 2,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#1e1e1e",
+   "originalText": "copilot-setup-steps: what happens when a step fails"
+  },
+  {
+   "id": "e2",
+   "type": "rectangle",
+   "x": 20,
+   "y": 50,
+   "width": 170,
+   "height": 80,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "#b2f2bb",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "id": "e3",
+     "type": "text"
+    }
+   ],
+   "opacity": 100
+  },
+  {
+   "id": "e3",
+   "type": "text",
+   "x": 30,
+   "y": 74.0,
+   "width": 150,
+   "height": 40.0,
+   "text": "1. checkout\n\u2713 exit 0",
+   "fontSize": 16,
+   "fontFamily": 2,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "e2",
+   "strokeColor": "#1e1e1e",
+   "originalText": "1. checkout\n\u2713 exit 0"
+  },
+  {
+   "id": "e4",
+   "type": "arrow",
+   "x": 190,
+   "y": 90,
+   "width": 50,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     50,
+     0
+    ]
+   ],
+   "strokeColor": "#1e1e1e",
+   "strokeWidth": 2,
+   "endArrowhead": "arrow",
+   "boundElements": []
+  },
+  {
+   "id": "e5",
+   "type": "rectangle",
+   "x": 240,
+   "y": 50,
+   "width": 170,
+   "height": 80,
+   "strokeColor": "#e03131",
+   "backgroundColor": "#ffc9c9",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "id": "e6",
+     "type": "text"
+    }
+   ],
+   "opacity": 100
+  },
+  {
+   "id": "e6",
+   "type": "text",
+   "x": 250,
+   "y": 74.0,
+   "width": 150,
+   "height": 40.0,
+   "text": "2. uv sync --locked\n\u2717 exit 1",
+   "fontSize": 16,
+   "fontFamily": 2,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "e5",
+   "strokeColor": "#1e1e1e",
+   "originalText": "2. uv sync --locked\n\u2717 exit 1"
+  },
+  {
+   "id": "e7",
+   "type": "arrow",
+   "x": 410,
+   "y": 90,
+   "width": 50,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     50,
+     0
+    ]
+   ],
+   "strokeColor": "#e03131",
+   "strokeWidth": 2,
+   "endArrowhead": "arrow",
+   "boundElements": []
+  },
+  {
+   "id": "e8",
+   "type": "rectangle",
+   "x": 460,
+   "y": 50,
+   "width": 170,
+   "height": 80,
+   "strokeColor": "#868e96",
+   "backgroundColor": "#e9ecef",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "dashed",
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "id": "e9",
+     "type": "text"
+    }
+   ],
+   "opacity": 100
+  },
+  {
+   "id": "e9",
+   "type": "text",
+   "x": 470,
+   "y": 74.0,
+   "width": 150,
+   "height": 40.0,
+   "text": "3. uv run pytest\nSKIPPED (rest skipped)",
+   "fontSize": 16,
+   "fontFamily": 2,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "e8",
+   "strokeColor": "#1e1e1e",
+   "originalText": "3. uv run pytest\nSKIPPED (rest skipped)"
+  },
+  {
+   "id": "e10",
+   "type": "arrow",
+   "x": 630,
+   "y": 90,
+   "width": 50,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     50,
+     0
+    ]
+   ],
+   "strokeColor": "#1e1e1e",
+   "strokeWidth": 2,
+   "endArrowhead": "arrow",
+   "boundElements": []
+  },
+  {
+   "id": "e11",
+   "type": "rectangle",
+   "x": 680,
+   "y": 40,
+   "width": 230,
+   "height": 100,
+   "strokeColor": "#1971c2",
+   "backgroundColor": "#a5d8ff",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "id": "e12",
+     "type": "text"
+    }
+   ],
+   "opacity": 100
+  },
+  {
+   "id": "e12",
+   "type": "text",
+   "x": 690,
+   "y": 74.0,
+   "width": 210,
+   "height": 40.0,
+   "text": "Agent STARTS anyway\nwith the environment as-is\n(no abort, no retry)",
+   "fontSize": 16,
+   "fontFamily": 2,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "e11",
+   "strokeColor": "#1e1e1e",
+   "originalText": "Agent STARTS anyway\nwith the environment as-is\n(no abort, no retry)"
+  },
+  {
+   "id": "e13",
+   "type": "text",
+   "x": 20,
+   "y": 165,
+   "width": 900,
+   "height": 39.0,
+   "text": "Consequence: a broken setup step doesn't stop the session. The agent works on a half-built\nenvironment and falls back to trial-and-error installs. Check the Actions run is green.",
+   "fontSize": 15,
+   "fontFamily": 2,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#495057",
+   "originalText": "Consequence: a broken setup step doesn't stop the session. The agent works on a half-built\nenvironment and falls back to trial-and-error installs. Check the Actions run is green."
+  },
+  {
+   "id": "e14",
+   "type": "rectangle",
+   "x": 20,
+   "y": 230,
+   "width": 890,
+   "height": 70,
+   "strokeColor": "#f08c00",
+   "backgroundColor": "#fff3bf",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "id": "e15",
+     "type": "text"
+    }
+   ],
+   "opacity": 100
+  },
+  {
+   "id": "e15",
+   "type": "text",
+   "x": 30,
+   "y": 251.0,
+   "width": 870,
+   "height": 35.0,
+   "text": "Rules: .github/workflows/copilot-setup-steps.yml \u00b7 ONE job named exactly copilot-setup-steps \u00b7 file on the DEFAULT branch\nCustomizable keys only: steps \u00b7 permissions \u00b7 runs-on \u00b7 services \u00b7 snapshot \u00b7 timeout-minutes (max 59). Other keys are ignored.",
+   "fontSize": 14,
+   "fontFamily": 2,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "e14",
+   "strokeColor": "#1e1e1e",
+   "originalText": "Rules: .github/workflows/copilot-setup-steps.yml \u00b7 ONE job named exactly copilot-setup-steps \u00b7 file on the DEFAULT branch\nCustomizable keys only: steps \u00b7 permissions \u00b7 runs-on \u00b7 services \u00b7 snapshot \u00b7 timeout-minutes (max 59). Other keys are ignored."
+  }
+ ],
+ "appState": {
+  "viewBackgroundColor": "#ffffff"
+ },
+ "files": {}
+}
