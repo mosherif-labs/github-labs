@@ -122,6 +122,12 @@ def test_assign_alert(client, alert_id):
     assert response.json()["assignee"] == "analyst-1"
 
 
+def test_assign_unknown_alert_returns_404(client):
+    response = client.post("/alerts/alt_missing/assign", json={"assignee": "analyst-1"})
+
+    assert response.status_code == 404
+
+
 def test_add_note(client, alert_id):
     response = client.post(f"/alerts/{alert_id}/notes", json={"author": "analyst-1", "text": "Looking into it"})
     assert response.status_code == 201
