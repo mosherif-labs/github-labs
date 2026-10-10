@@ -1,8 +1,12 @@
 name: "Copilot Setup Steps"
 
+# Runs on its own when changed, so you can see it pass before Copilot uses it
 on:
   workflow_dispatch:
   push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
     paths:
       - .github/workflows/copilot-setup-steps.yml
 
@@ -10,15 +14,23 @@ jobs:
   # The job MUST be named copilot-setup-steps for Copilot to pick it up
   copilot-setup-steps:
     runs-on: ubuntu-latest
+    timeout-minutes: 30 # max 59
     permissions:
       contents: read
     steps:
       - uses: actions/checkout@v7
 
-      - uses: astral-sh/setup-uv@v7
+      # setup-uv stopped publishing floating major tags at v8: pin the release
+      - uses: astral-sh/setup-uv@v10.3.0
         with:
           python-version: "3.13"
           enable-cache: true
 
-      # installs fastapi, pytest AND mcp[cli] (now in pyproject.toml / uv.lock)
+      # installs fastapi, mcp[cli] and the dev group (pytest) from uv.lock
       - run: uv sync --locked
+
+      - name: Put the venv on PATH (so the agent can call pytest directly)
+        run: echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
+
+      - name: Run the tests once
+        run: uv run pytest -q
