@@ -1,0 +1,349 @@
+{
+ "type": "excalidraw",
+ "version": 2,
+ "source": "claude",
+ "elements": [
+  {
+   "id": "e1",
+   "type": "text",
+   "x": 20,
+   "y": 0,
+   "width": 900,
+   "height": 26.0,
+   "text": "Copilot cloud agent firewall: what it filters (GitHub Actions appliance only)",
+   "fontSize": 20,
+   "fontFamily": 2,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#1e1e1e",
+   "originalText": "Copilot cloud agent firewall: what it filters (GitHub Actions appliance only)"
+  },
+  {
+   "id": "e2",
+   "type": "rectangle",
+   "x": 20,
+   "y": 60,
+   "width": 230,
+   "height": 60,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "#e9ecef",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "id": "e3",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "type": "text",
+   "x": 28,
+   "y": 74.0,
+   "width": 214,
+   "height": 40.0,
+   "text": "setup steps\n(copilot-setup-steps.yml)",
+   "fontSize": 16,
+   "fontFamily": 2,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "e2",
+   "strokeColor": "#1e1e1e",
+   "originalText": "setup steps\n(copilot-setup-steps.yml)"
+  },
+  {
+   "id": "e4",
+   "type": "rectangle",
+   "x": 20,
+   "y": 150,
+   "width": 230,
+   "height": 60,
+   "strokeColor": "#1971c2",
+   "backgroundColor": "#a5d8ff",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "id": "e5",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "type": "text",
+   "x": 28,
+   "y": 164.0,
+   "width": 214,
+   "height": 40.0,
+   "text": "agent's Bash tool\n(pip, curl, python ...)",
+   "fontSize": 16,
+   "fontFamily": 2,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "e4",
+   "strokeColor": "#1e1e1e",
+   "originalText": "agent's Bash tool\n(pip, curl, python ...)"
+  },
+  {
+   "id": "e6",
+   "type": "rectangle",
+   "x": 20,
+   "y": 240,
+   "width": 230,
+   "height": 60,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "#e9ecef",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "id": "e7",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "type": "text",
+   "x": 28,
+   "y": 254.0,
+   "width": 214,
+   "height": 40.0,
+   "text": "MCP server processes",
+   "fontSize": 16,
+   "fontFamily": 2,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "e6",
+   "strokeColor": "#1e1e1e",
+   "originalText": "MCP server processes"
+  },
+  {
+   "id": "e8",
+   "type": "rectangle",
+   "x": 330,
+   "y": 140,
+   "width": 200,
+   "height": 80,
+   "strokeColor": "#f08c00",
+   "backgroundColor": "#ffd8a8",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "id": "e9",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "type": "text",
+   "x": 338,
+   "y": 166.0,
+   "width": 184,
+   "height": 35.0,
+   "text": "FIREWALL\nGitHub hosts + recommended\n+ custom allowlist",
+   "fontSize": 14,
+   "fontFamily": 2,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "e8",
+   "strokeColor": "#1e1e1e",
+   "originalText": "FIREWALL\nGitHub hosts + recommended\n+ custom allowlist"
+  },
+  {
+   "id": "e10",
+   "type": "rectangle",
+   "x": 620,
+   "y": 140,
+   "width": 200,
+   "height": 80,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "#ffffff",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roundness": {
+    "type": 3
+   },
+   "boundElements": [
+    {
+     "id": "e11",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "type": "text",
+   "x": 628,
+   "y": 164.0,
+   "width": 184,
+   "height": 40.0,
+   "text": "Internet",
+   "fontSize": 16,
+   "fontFamily": 2,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "e10",
+   "strokeColor": "#1e1e1e",
+   "originalText": "Internet"
+  },
+  {
+   "id": "e12",
+   "type": "arrow",
+   "x": 250,
+   "y": 90,
+   "width": 370,
+   "height": 70,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     370,
+     70
+    ]
+   ],
+   "strokeColor": "#868e96",
+   "strokeWidth": 2,
+   "strokeStyle": "dashed",
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "e13",
+   "type": "arrow",
+   "x": 250,
+   "y": 180,
+   "width": 80,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     80,
+     0
+    ]
+   ],
+   "strokeColor": "#1971c2",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "e14",
+   "type": "arrow",
+   "x": 530,
+   "y": 180,
+   "width": 90,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     90,
+     0
+    ]
+   ],
+   "strokeColor": "#1971c2",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "e15",
+   "type": "arrow",
+   "x": 250,
+   "y": 270,
+   "width": 370,
+   "height": -70,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     370,
+     -70
+    ]
+   ],
+   "strokeColor": "#868e96",
+   "strokeWidth": 2,
+   "strokeStyle": "dashed",
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "e16",
+   "type": "text",
+   "x": 270,
+   "y": 70,
+   "width": 900,
+   "height": 18.2,
+   "text": "NOT filtered",
+   "fontSize": 14,
+   "fontFamily": 2,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#e03131",
+   "originalText": "NOT filtered"
+  },
+  {
+   "id": "e17",
+   "type": "text",
+   "x": 270,
+   "y": 275,
+   "width": 900,
+   "height": 18.2,
+   "text": "NOT filtered",
+   "fontSize": 14,
+   "fontFamily": 2,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#e03131",
+   "originalText": "NOT filtered"
+  },
+  {
+   "id": "e18",
+   "type": "text",
+   "x": 20,
+   "y": 330,
+   "width": 900,
+   "height": 54.599999999999994,
+   "text": "Blocked -> warning in the PR body (new PR) or a PR comment (existing PR): blocked address + command.\nCustom allowlist: domain = domain + subdomains \u00b7 URL = that scheme + host + path prefix only.\nOrg: firewall / recommended list = Enabled \u00b7 Disabled \u00b7 Let repositories decide (default); repo custom rules allowed by default.",
+   "fontSize": 14,
+   "fontFamily": 2,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "strokeColor": "#495057",
+   "originalText": "Blocked -> warning in the PR body (new PR) or a PR comment (existing PR): blocked address + command.\nCustom allowlist: domain = domain + subdomains \u00b7 URL = that scheme + host + path prefix only.\nOrg: firewall / recommended list = Enabled \u00b7 Disabled \u00b7 Let repositories decide (default); repo custom rules allowed by default."
+  }
+ ],
+ "appState": {
+  "viewBackgroundColor": "#ffffff"
+ },
+ "files": {}
+}
