@@ -205,7 +205,7 @@ Mirror of the **GH-600 objectives** issue. **Green** = configured it this week +
 | 1.2 | Identify and mitigate common anti-patterns | 🟢 green | [`d02-antipatterns.md`](d02-antipatterns.md) |
 | 1.3 | Inputs, outputs, success criteria | 🟢 green (Q6 ✗ → re-quiz 2/2) | [`d02-antipatterns.md`](d02-antipatterns.md) (template fields) |
 | 2.1 | Planning distinct from execution | 🟢 green | [`d03-agents.md`](d03-agents.md) |
-| 2.2 | Structured plan output | 🟢 green | [`d03-agents.md`](d03-agents.md) · [`../plans/`](../plans/) |
+| 2.2 | Structured plan output | 🟢 green | [`d03-agents.md`](d03-agents.md) · [`plans/`](plans/) |
 | 2.3 | Validate agent plans | 🟢 green (Q11 ✗ → re-quiz 2/2) | [`plan-checklist.md`](plan-checklist.md) |
 | 2.4 | No action until checked + approved | 🟢 green | [`d04-plan-gate.md`](d04-plan-gate.md) |
 | 3.1 | Degree of autonomy + guardrails | 🟢 green (`d05-controls.md` restored) | [`d05-controls.md`](d05-controls.md) |
