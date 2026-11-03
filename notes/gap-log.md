@@ -37,3 +37,11 @@ Synthetic data only: no real names, rules, thresholds or screenshots from work.
 | 2026-10-14 | Copilot CLI and Memory preferences (D15 Mission 1 check, ✗; re-test ✓) | Said Copilot CLI uses **repo facts only**. That's **code review**. CLI applies repo facts **plus the initiating user's** preferences (only theirs, never other users'). Rule: *review = facts only; CLI = facts + me* | [Docs — Feature availability](https://docs.github.com/en/copilot/concepts/agents/copilot-memory#feature-availability) · [`img/d15-memory-who-reads.svg`](img/d15-memory-who-reads.svg) |
 | 2026-10-15 | CLI auto-compression threshold (D16 Bet B, ✗) | Guessed **50%**. Copilot CLI starts background compression near **80%** of the token limit (≈90% if static context already fills ~75%+; blocks at ~95% until compaction finishes). `/compact` compresses manually any time, `/context` shows usage | [Docs — Context management](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/overview#context-management) |
 | 2026-10-15 | Clean hand-off ≠ correct result (D16 Bet A, ✗) | Guessed S3 would make **1** repeat/reversal. Actual **0**: Done stopped repeats, Decided stopped reversals. The miss was **drift**: the issue's `reason` fell out of S2's Next line and S3 locked it in as a Decided entry. Rule: *Done stops repeats, Decided stops reversals, only the issue's acceptance criteria stop drift*: keep them in the progress file | PR [#82](https://github.com/mosherif-labs/github-labs/pull/82) · [Docs — Researching, planning, and iterating](https://docs.github.com/en/copilot/tutorials/cloud-agent/get-the-best-results#researching-planning-and-iterating-before-opening-a-pull-request) |
+
+## Day 26 remediation list
+
+Filled by Day 21: every domain in 1–4 under **75%** on practice exam 1, and every amber/red Domain 3–4 bullet, with the day whose lab to redo.
+
+| item | from | redo |
+|---|---|---|
+| | | |
