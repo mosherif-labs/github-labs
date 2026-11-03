@@ -1,0 +1,6 @@
+# New repo has no root CODEOWNERS, so .github/CODEOWNERS is the one GitHub reads.
+# Last matching pattern wins.
+/.github/agents/     @sheriffMoose
+/.github/hooks/      @sheriffMoose
+/.github/workflows/  @sheriffMoose
+/infra/              @sheriffMoose

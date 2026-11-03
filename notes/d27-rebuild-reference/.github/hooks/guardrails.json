@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      { "type": "command", "bash": "./scripts/hooks/block-infra.sh", "cwd": ".", "timeoutSec": 10 }
+    ],
+    "postToolUse": [
+      { "type": "command", "bash": "./scripts/hooks/log-tool.sh", "cwd": ".", "timeoutSec": 10 }
+    ]
+  }
+}
