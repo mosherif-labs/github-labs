@@ -7,7 +7,8 @@ A toy transaction-screening service: FastAPI, in-memory storage (`app/store.py`)
 - Install: `uv sync --locked`
 - Test: `uv run pytest -v` (the same command CI runs in `.github/workflows/ci.yml`, job `test`)
 - Run locally: `uv run uvicorn app.main:app --reload`
-- Run the full test suite before finishing any change, and only finish when it passes.
+- Run the full test suite before finishing any change, and only finish when it passes. Every run prints a coverage table (`--cov=app` in `pyproject.toml`); don't let coverage drop.
+- There is no linter configured: don't add one, and don't reformat files you didn't change.
 
 ## Coding standards
 
@@ -16,7 +17,13 @@ A toy transaction-screening service: FastAPI, in-memory storage (`app/store.py`)
 - Get the store through the `StoreDep` dependency, and hold `store.lock` while reading or writing it.
 - Use type hints on all functions. Keep changes small and focused on the issue.
 - Every behaviour change comes with tests in `tests/`.
-- Add a dependency only if the issue asks for it, and update `uv.lock` with `uv` (never by hand).
+- Never add a dependency without an ADR in `docs/decisions/` that the issue links to. If you need one, stop and say so. Update `uv.lock` only with `uv`, never by hand.
+- Endpoints live in `app/routers/<resource>.py`; their tests live in `tests/test_<resource>.py`.
+
+## State and decisions
+
+- Before working on an issue, read `plans/<issue>-progress.md` if it exists, and update its **Done / Decided / Next** at the end. Never redo Done or reverse Decided without a new Decided entry.
+- Read `docs/decisions/` before changing behaviour; never contradict an Accepted ADR without a new ADR.
 
 ## Boundaries
 
