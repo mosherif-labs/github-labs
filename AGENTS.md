@@ -25,7 +25,8 @@ uv run uvicorn app.main:app --reload
 ## Rules
 
 - Never touch `infra/`. It is human-only.
-- Synthetic data only.
+- Synthetic data only. Test SSNs use areas 000, 666 or 900–999; test card numbers must fail the Luhn check. CI check `rai-data` enforces this.
+- Never edit `migrations/`: data migrations need a human (label the issue `needs-human`). A `preToolUse` hook blocks agent writes there.
 - Before working on an issue, read `plans/<issue>-progress.md` if it exists. At the end, update its Done / Decided / Next. Never redo Done or reverse Decided without a new Decided entry.
 - Read `docs/decisions/` before changing behaviour; never contradict an Accepted ADR without a new ADR.
 - See `.github/copilot-instructions.md` for coding standards and `.github/instructions/` for path-specific rules. API rules (status codes, validation) live only in `.github/instructions/api.instructions.md`; don't restate them here.
