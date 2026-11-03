@@ -45,3 +45,21 @@ Filled by Day 21: every domain in 1–4 under **75%** on practice exam 1, and ev
 | item | from | redo |
 |---|---|---|
 | | | |
+
+## Exam result
+
+GH-600, sat Sun 2026-10-25. Pass mark **700**.
+
+| | Result |
+|---|---|
+| Score | |
+| Pass / fail | |
+
+| Domain | Score report feedback | Matches the mocks? |
+|---|---|---|
+| 1 Agent architecture & SDLC | | |
+| 2 Tool use & environment | | |
+| 3 Memory, state & execution | | |
+| 4 Evaluation, error analysis & tuning | | |
+| 5 Multi-agent coordination | | |
+| 6 Guardrails & accountability | | |
