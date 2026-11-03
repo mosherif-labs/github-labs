@@ -15,7 +15,10 @@ dependencies = [
 dev = [
     "pytest>=8",
     "httpx2>=2.13.1",
+    "pytest-cov>=7.1.0",
 ]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+# Day 18: every run prints coverage, so "coverage delta" comes from a log
+addopts = "--cov=app --cov-report=term"
