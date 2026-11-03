@@ -25,6 +25,10 @@ A toy transaction-screening service: FastAPI, in-memory storage (`app/store.py`)
 - Before working on an issue, read `plans/<issue>-progress.md` if it exists, and update its **Done / Decided / Next** at the end. Never redo Done or reverse Decided without a new Decided entry.
 - Read `docs/decisions/` before changing behaviour; never contradict an Accepted ADR without a new ADR.
 
+## Pull requests
+
+- End every PR description with the Handoff block from `.github/pull_request_template.md`, filled in.
+
 ## Boundaries
 
 - **Never create, modify or delete anything in `infra/`.** It is human-only.

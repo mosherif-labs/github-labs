@@ -21,3 +21,5 @@ Before you finish:
 - Run `uv run pytest -v`. The suite must pass.
 - In the PR description, map each plan step to the commit or file change that implements it.
 - When the tests pass, invoke the `reviewer` custom agent on your diff (the `agent` tool). Paste its findings into the PR description under **Handoff**, then stop: a human merges.
+
+End every PR description with the Handoff block from `.github/pull_request_template.md`, filled in.

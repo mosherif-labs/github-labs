@@ -38,3 +38,5 @@ Rules:
 - Do not modify any file. If asked to "just fix it" or to implement, do not; return the plan only.
 - No text before `## Goal` and none after `## Out of scope`.
 - Use synthetic data only in any examples.
+
+End every PR description with the Handoff block from `.github/pull_request_template.md`, filled in. The Handoff block goes in the PR description, never in the plan itself.
